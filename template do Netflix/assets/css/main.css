@@ -12,7 +12,7 @@
 /* Elementos base */
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -21,12 +21,12 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
     color: var(--vermelho);
-    font-family: 'Arial Black,';
+    font-family: 'Arial Black';
     font-size: 30px;
     display: flex;
     justify-content: flex-start;
@@ -47,8 +47,8 @@ header nav a:hover {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/dotor-estranho.jpg');
 
-    height: 600px;
-    background-size: cover;
+    height:400px;
+    background-size:cover;
 
     display: flex;
     flex-direction: column;
@@ -97,4 +97,11 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 50%;
+}
+
+.box-filme{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
