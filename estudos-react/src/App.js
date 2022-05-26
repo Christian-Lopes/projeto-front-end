@@ -1,6 +1,7 @@
 import "./App.css";
 import HelloWorld from "./components/HelloWorld";
-
+import Pessoa from "./components/Pessoa";
+import Pet from "./components/Pet";
 
 
 function App() {
@@ -23,6 +24,21 @@ function App() {
       <p>Soma: { 2 + 2 }</p>
       <p>Function Soma: { soma() }</p>
       <img src={url} alt="Sol" width="40px"/>
+      <hr></hr>
+      <Pessoa 
+        foto={url}
+        name={name}
+        idade={33}
+        profissao="Desenvolvedor fullstack"
+        tamanho="25px"
+      />
+      <hr></hr>
+      <Pet 
+        name="Amorinha"
+        type="Cachorro"
+        raca="pug"
+        peso="7"
+      />
     </div>
   );
 }
