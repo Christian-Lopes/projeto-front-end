@@ -2,7 +2,7 @@ import "./App.css";
 import HelloWorld from "./components/HelloWorld";
 import Pessoa from "./components/Pessoa";
 import Pet from "./components/Pet";
-
+import List from "./components/List";
 
 function App() {
   const name = "Christian Lopes";
@@ -39,6 +39,8 @@ function App() {
         raca="pug"
         peso="7"
       />
+      <hr></hr>
+      <List />
     </div>
   );
 }
