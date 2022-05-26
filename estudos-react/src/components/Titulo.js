@@ -1,7 +1,9 @@
+import styles from './Frase.module.css';
+
 function Titulo(props) {
   return (
-    <div>
-      <h1>{props.titulo}</h1>
+    <div className={ styles.fraseContainer }>
+      <h1 class={ styles.fraseContent }>{ props.titulo }</h1>
     </div>
   );
 }
