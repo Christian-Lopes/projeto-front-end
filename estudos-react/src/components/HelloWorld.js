@@ -1,11 +1,14 @@
 import Paragrafo from "./Paragrafo";
+import Titulo from "./Titulo";
 
 function HelloWorld() {
   const text = "Meu primeiro componenete.";
+  const titulo = "Trabalhando com Props.";
   return (
     <div>
-      <h1>Criando meu primeiro componete.</h1>
-      <Paragrafo frase={ text } />
+      <Titulo titulo={titulo} />
+
+      <Paragrafo frase={text} />
     </div>
   );
 }

@@ -1,9 +1,9 @@
-function Paragrafo(frase){
-    return (
-        <div>
-            <p>{ frase }</p>
-        </div>
-    )
+function Paragrafo(props) {
+  return (
+    <div>
+      <p>{props.frase}</p>
+    </div>
+  );
 }
 
 export default Paragrafo;
