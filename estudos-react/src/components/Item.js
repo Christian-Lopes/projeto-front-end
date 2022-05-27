@@ -1,11 +1,25 @@
-import styles from './Item.module.css';
+import PropTypes from 'prop-types'
 
-function Item({marca}){
-    return (
-        <>
-            <li className='Item'>{ marca }</li>
-        </>
-    )
+import styles from "./Item.module.css";
+
+function Item({ marca, lancamento }) {
+  return (
+    <>
+      <li className="Item">
+        {marca} - {lancamento}
+      </li>
+    </>
+  );
+}
+
+Item.propTypes = {
+    marca: PropTypes.string.isRequired,
+    lancamento: PropTypes.number.isRequired,
+}
+
+Item.defaultProps = {
+    marca: 'Faltou informar a marca.',
+    lancamento: 0,
 }
 
 export default Item;

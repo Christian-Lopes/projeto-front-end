@@ -3,6 +3,8 @@ import HelloWorld from "./components/HelloWorld";
 import Pessoa from "./components/Pessoa";
 import Pet from "./components/Pet";
 import List from "./components/List";
+import Evento from "./components/Evento";
+import Form from "./components/Form";
 
 function App() {
   const name = "Christian Lopes";
@@ -41,6 +43,10 @@ function App() {
       />
       <hr></hr>
       <List />
+      <hr></hr>
+      <Evento />
+      <hr></hr>
+      <Form />
     </div>
   );
 }
