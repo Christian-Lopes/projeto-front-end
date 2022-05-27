@@ -5,7 +5,7 @@ import styles from "./Item.module.css";
 function Item({ marca, lancamento }) {
   return (
     <>
-      <li className="Item">
+      <li className="item">
         {marca} - {lancamento}
       </li>
     </>

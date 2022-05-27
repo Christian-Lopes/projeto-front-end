@@ -6,6 +6,7 @@ import List from "./components/List";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Condicional from "./components/Condicional";
+import ListaTwo from "./components/ListaTwo";
 
 function App() {
   const name = "Christian Lopes";
@@ -13,6 +14,7 @@ function App() {
   const url =
     "https://s2.glbimg.com/Qu_SixHUaqo41jOtZdXDEo3Mz0A=/e.glbimg.com/og/ed/f/original" +
     "/2020/07/17/captura_de_tela_2020-07-17_as_11.37.38.png";
+  const itens = ["React", "Vue", "Angular"];
 
   function soma() {
     return 6 + 6;
@@ -46,8 +48,10 @@ function App() {
       <Form />
       <hr></hr>
       <Condicional />
+      <hr></hr>
+      <ListaTwo listas={itens} />
     </div>
-  );
+  )
 }
 
 export default App;
