@@ -7,6 +7,9 @@ import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Condicional from "./components/Condicional";
 import ListaTwo from "./components/ListaTwo";
+import { useState } from "react";
+import SeuNome from "./components/SeuNome";
+import Saudacao from "./components/Saudacao";
 
 function App() {
   const name = "Christian Lopes";
@@ -15,6 +18,7 @@ function App() {
     "https://s2.glbimg.com/Qu_SixHUaqo41jOtZdXDEo3Mz0A=/e.glbimg.com/og/ed/f/original" +
     "/2020/07/17/captura_de_tela_2020-07-17_as_11.37.38.png";
   const itens = ["React", "Vue", "Angular"];
+  const [nome, setNome] = useState();
 
   function soma() {
     return 6 + 6;
@@ -50,8 +54,11 @@ function App() {
       <Condicional />
       <hr></hr>
       <ListaTwo listas={itens} />
+      <hr></hr>
+      <SeuNome setNome={setNome} />
+      <Saudacao nome={ nome } />
     </div>
-  )
+  );
 }
 
 export default App;
