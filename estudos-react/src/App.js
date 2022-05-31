@@ -11,6 +11,9 @@ import { useState } from "react";
 import SeuNome from "./components/SeuNome";
 import Saudacao from "./components/Saudacao";
 
+import NavBar from "./components/layouts/NavBar";
+import Footer from "./components/layouts/Footer";
+
 function App() {
   const name = "Christian Lopes";
   const nameUpperCase = name.toUpperCase();
@@ -26,6 +29,8 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
+
       <HelloWorld />
       <h1>Hello React!</h1>
       <p>Vamos começar a treinar.</p>
@@ -56,7 +61,8 @@ function App() {
       <ListaTwo listas={itens} />
       <hr></hr>
       <SeuNome setNome={setNome} />
-      <Saudacao nome={ nome } />
+      <Saudacao nome={nome} />
+      <Footer />
     </div>
   );
 }
