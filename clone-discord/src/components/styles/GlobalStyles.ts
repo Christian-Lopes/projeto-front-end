@@ -21,14 +21,14 @@ html, body, #root {
 :root {
     --primary: #36393f;
     --secondary: #2f3136;
-    --tertiary: #rgb(32,34,37);
+    --tertiary: rgb(32,34,37);
     --quartenary: #292b2f;
     --quinary: #393d42;
     --senary: #828386;
 
     --white: #fff;
     --gray: #8a8c90;
-    --chat-input: #rgb(64,68,75);
+    --chat-input: rgb(64,68,75);
     --symbol: #74777a;
 
     --notification: #f84a4b;

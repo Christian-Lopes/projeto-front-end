@@ -1,15 +1,24 @@
-import { useEffect, useState } from "react";
+import { sellers } from "./hooks/sellers";
+
+type Sellers = {
+  id: string;
+  name: string;
+  logo: string;
+};
 
 function App() {
-  const [repositories, setRepositories] = useState([]);
-  const cep: number = 70650597;
+  let apiUnidades: string = `https://mercado.carrefour.com.br/api/checkout/pub/regions?country=BRA&postalCode=${cep}`;
+  const { data: seller } = sellers<Sellers[]>(apiUnidades);
 
-  useEffect(() => {
-    fetch(
-      `https://mercado.carrefour.com.br/api/checkout/pub/regions?country=BRA&postalCode=${cep}`
-    );
-  });
-  return <p>Hello Carrefour!</p>
+  return (
+    seller?.map(repo => {
+      return (
+        <li key={seller.i}></li>
+      )
+    }
+      )
+    
+  )
 }
 
 export default App;
