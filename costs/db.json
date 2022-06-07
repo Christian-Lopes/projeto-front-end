@@ -76,6 +76,50 @@
       "cost": 0,
       "services": [],
       "id": 7
+    },
+    {
+      "name": "Site Institucional",
+      "budget": "1500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "name": "Aplicação de treinamento",
+      "budget": "30000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "name": "teste10",
+      "budget": "8900",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "name": "etse",
+      "budget": "89",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 11
     }
   ],
   "categories": [
