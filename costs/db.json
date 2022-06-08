@@ -1,17 +1,6 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "6900",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "Biblioteca online",
       "budget": "10000.00",
       "category": {
@@ -21,50 +10,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "teste2",
-      "budget": "7890",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste2",
-      "budget": "7890",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "teste3",
-      "budget": "8900",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "teste05",
-      "budget": "12900",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
     },
     {
       "name": "teste 08",
@@ -111,17 +56,6 @@
       "id": 10
     },
     {
-      "name": "etse",
-      "budget": "89",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
       "name": "Costs",
       "budget": "5000",
       "category": {
@@ -142,6 +76,17 @@
       "cost": 0,
       "services": [],
       "id": 13
+    },
+    {
+      "name": "Loja de peças",
+      "budget": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 14
     }
   ],
   "categories": [
